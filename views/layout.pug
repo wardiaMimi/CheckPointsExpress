@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        link(rel='stylesheet', href='/css/main.css')
+        block content2 
+    body
+        nav
+            ul.navbar 
+                li
+                    a( id='page1',href="/")  Home       
+                li
+                    a(id='page2',href="/services") Our Services
+                li 
+                    a(id='page3',href="/contact") Contact Us 
+                    
+        block content
+        br  
+        .footer 
+          nav
+            .pages 
+                
+                    a( class="page",href="/") 
+                     img(id ="photo1",src="/img/Rectangle2.png", alt="alt")
+                
+                    a( class="page",href="/services") 
+                      img(id ="photo2", src="/img/Rectangle2.png", alt="alt")
+                
+                    a( class="page",href="/contact") 
+                      img(id="photo3",src="/img/Rectangle2.png", alt="alt")
+
+        
+        script(src='/js/index.js', type="text/javascript")

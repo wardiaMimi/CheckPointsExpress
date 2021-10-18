@@ -1,6 +1,6 @@
-var url =window.location.href;
+var URL =window.location.href;
 
-switch (url) {
+switch (URL) {
     case 'http://localhost:3000/':
         changePage(1);
         $('body').css('background',' #8066a4 url(/img/background1.png) no-repeat');
